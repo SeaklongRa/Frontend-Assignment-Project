@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "fake_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MBNTQ2YWtK0PUAraSpdFs"
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone",
+      "description": "US",
+      "price": 50,
+      "quantity": 48,
+      "image": "29387734.jpg",
+      "id": 1
+    },
+    {
+      "name": "Samsung S21",
+      "description": "Original From Korea",
+      "price": 1120,
+      "quantity": 3,
+      "image": "29387734.jpg",
+      "id": 2
+    },
+    {
+      "name": "Iphone 14 Plus",
+      "description": "USA",
+      "price": 1340,
+      "quantity": 300,
+      "image": "Screenshot 2023-03-02 001940.png",
+      "id": 4
+    },
+    {
+      "name": "Samsung 22 Plus",
+      "description": "Original From China (CH)",
+      "price": 500,
+      "quantity": 0,
+      "image": "335398778_6308891449172346_1737097864608412054_n.jpg",
+      "id": 5
+    },
+    {
+      "name": "Coca Cola",
+      "description": "Coca cola from Japan",
+      "price": 200,
+      "quantity": 100,
+      "image": "Screenshot 2023-03-02 001940.png",
+      "id": 7
+    },
+    {
+      "name": "Tiger",
+      "description": "Product from Thailand",
+      "price": 200,
+      "quantity": 5,
+      "image": "Capture.PNG",
+      "id": 8
+    },
+    {
+      "name": "ABC",
+      "description": "SP",
+      "price": 1200,
+      "quantity": 300,
+      "image": "Capture.PNG",
+      "id": 11
+    },
+    {
+      "name": "Tiger",
+      "description": "From Italy",
+      "price": 500,
+      "quantity": 2,
+      "image": "Screenshot 2023-03-16 234255.png",
+      "id": 12
+    }
+  ]
+}
