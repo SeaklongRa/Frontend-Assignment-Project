@@ -69,14 +69,6 @@
           </v-card>
         </v-col>
       </v-row>
-      <!-- <l-snackbar
-        :key="snackbar.key"
-        v-if="snackbar.show"
-        @toggleSnackbar="snackbar.show = false"
-        :text="snackbar.text"
-        :icon="snackbar.icon"
-        :color="snackbar.color"
-      /> -->
     </v-container>
     <l-snackbar />
   </v-app>
