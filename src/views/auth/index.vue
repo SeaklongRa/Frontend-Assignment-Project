@@ -77,7 +77,6 @@
 <script>
 import LButton from "@/components/button/LButton.vue"
 import LTextField from "@/components/form/LTextField.vue"
-// import LSnackbar from '@/components/snackbar/LSnackbar.vue'
 import { mapActions } from 'vuex'
 import LSnackbar from '@/components/snackbar/LSnackbar.vue'
 
@@ -86,7 +85,6 @@ export default {
   components: {
     LButton,
     LTextField,
-    // LSnackbar,
     LSnackbar
   },
   data() {
@@ -94,13 +92,6 @@ export default {
       email: '',
       password: '',
       showPassword: false,
-      // snackbar: {
-      //   text: '',
-      //   icon: '',
-      //   color: '',
-      //   show: false,
-      //   key: 0
-      // }
     }
   },
   methods: {
@@ -118,7 +109,6 @@ export default {
         this.$http.get(`http://localhost:3000/users?email=${this.email}&password=${this.password}`)
         .then(response => {
           if (response.status === 200 && response.data.length > 0){
-            // this.$store.dispatch("login", { email: this.email, password: this.password })
             localStorage.setItem("fake-token", JSON.stringify(response.data[0].fake_token))
             this.$router.push({ name: "home" })
             this.$store.state.isSnackbar.login = true
@@ -128,10 +118,6 @@ export default {
               'error',
               'mdi-alert'
             )
-            // this.snackbarHandler()
-            // this.snackbar.text = 'Invalid Email or Password'
-            // this.snackbar.icon = 'mdi-alert'
-            // this.snackbar.color = 'error'
           }
         })
         .catch(error=>console.log(error))
@@ -142,16 +128,8 @@ export default {
           'error',
           'mdi-alert'
         )
-        // this.snackbarHandler()
-        // this.snackbar.text = 'Logged in fail, please try again...'
-        // this.snackbar.icon = 'mdi-alert'
-        // this.snackbar.color = 'error'
       }
     },
-    // snackbarHandler() {
-    //   this.snackbar.key++;
-    //   this.snackbar.show = true;
-    // }
   },
   mounted() {
     let user = localStorage.getItem("fake-token")
@@ -160,10 +138,6 @@ export default {
     }
     if(this.$store.state.isSnackbar.login) {
       this.saveDetails('Logged out successfully')
-      // this.snackbarHandler()
-      // this.snackbar.text = 'Logged out successfully'
-      // this.snackbar.icon = 'mdi-check'
-      // this.snackbar.color = 'success'
       this.$store.state.isSnackbar.login = false
     }
   },
