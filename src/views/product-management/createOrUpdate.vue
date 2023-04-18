@@ -157,7 +157,11 @@ export default {
   },
   methods: {
     onFileSelected() {
-      this.nameImage = event.target.files[0].name
+      if(event.target && event.target.files) {
+        this.nameImage = event.target.files[0]?.name;
+      } else {
+        this.nameImage = null
+      }
     },
     onCancel() {
       this.form.image = null
