@@ -10,92 +10,84 @@
   ],
   "products": [
     {
-      "name": "Iphone",
-      "description": "US",
-      "price": 50,
-      "quantity": 48,
-      "image": "29387734.jpg",
+      "name": "Coca Cola drink",
+      "description": "Product from American",
+      "price": 1200,
+      "quantity": 300,
+      "image": "Screenshot 2023-03-16 233813.png",
       "id": 1
     },
     {
-      "name": "Samsung S21",
-      "description": "Original From Korea",
-      "price": 1120,
-      "quantity": 3,
-      "image": "29387734.jpg",
+      "name": "Sting drink",
+      "description": "Product from American",
+      "price": 750,
+      "quantity": 0,
+      "image": "Screenshot 2023-03-02 002723.png",
       "id": 2
     },
     {
-      "name": "Iphone 14 Plus",
-      "description": "USA",
-      "price": 1340,
-      "quantity": 300,
-      "image": "Screenshot 2023-03-02 001940.png",
+      "name": "Pepsi energy drink",
+      "description": "Product from American",
+      "price": 930,
+      "quantity": 240,
+      "image": "Capture.PNG",
+      "id": 3
+    },
+    {
+      "name": "Bacchus energy drink",
+      "description": "Product from Korean",
+      "price": 500,
+      "quantity": 9,
+      "image": "Screenshot 2023-03-16 233813.png",
       "id": 4
     },
     {
-      "name": "Samsung 22 Plus",
-      "description": "Original From China (CH)",
-      "price": 500,
-      "quantity": 0,
-      "image": "335398778_6308891449172346_1737097864608412054_n.jpg",
+      "name": "Krud energy drink",
+      "description": "Product from Cambodia",
+      "price": 333,
+      "quantity": 150,
+      "image": "Capture.PNG",
       "id": 5
     },
     {
-      "name": "Coca Cola",
-      "description": "Coca cola from Japan",
-      "price": 200,
-      "quantity": 100,
-      "image": "Screenshot 2023-03-02 001940.png",
+      "name": "Vital water",
+      "description": "Product from Cambodia",
+      "price": 500,
+      "quantity": 1000,
+      "image": "Screenshot 2023-03-16 233813.png",
+      "id": 6
+    },
+    {
+      "name": "Angkor Puro water",
+      "description": "Product from Cambodia",
+      "price": 450,
+      "quantity": 700,
+      "image": "Screenshot 2023-03-24 221852.png",
       "id": 7
     },
     {
-      "name": "Tiger",
-      "description": "Product from Thailand",
-      "price": 200,
-      "quantity": 5,
-      "image": "Capture.PNG",
+      "name": "Cambodia water",
+      "description": "Product from Cambodia",
+      "price": 500,
+      "quantity": 1200,
+      "image": "Screenshot 2023-03-02 001940.png",
       "id": 8
     },
     {
-      "name": "ABC",
-      "description": "SP",
-      "price": 1200,
-      "quantity": 300,
-      "image": "Capture.PNG",
-      "id": 11
-    },
-    {
-      "name": "Tiger",
-      "description": "From Italy",
-      "price": 500,
-      "quantity": 2,
+      "name": "Kulen water",
+      "description": "Product from Cambodia",
+      "price": 1300,
+      "quantity": 5,
       "image": "Screenshot 2023-03-16 234255.png",
-      "id": 12
+      "id": 9
     },
     {
-      "name": "ABC",
-      "description": "Product",
-      "price": 3243,
-      "quantity": 3545,
-      "image": "Screenshot 2023-03-02 001940.png",
-      "id": 13
-    },
-    {
-      "name": "ABC",
-      "description": "BC",
-      "price": 343,
-      "quantity": 222,
-      "image": "Screenshot 2023-03-02 002723.png",
-      "id": 14
-    },
-    {
-      "name": "ABC",
-      "description": "ABC",
-      "price": 111,
-      "quantity": 111,
-      "image": "Screenshot 2023-03-02 002723.png",
-      "id": 15
+      "name": "Vigor energy drink",
+      "description": "Product from Malaysia",
+      "price": 300,
+      "quantity": 150,
+      "image": "Screenshot 2023-03-18 160837.png",
+      "id": 10
     }
   ]
 }
