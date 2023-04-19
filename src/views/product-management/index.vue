@@ -8,7 +8,6 @@
         Create
       </l-button>
     </template>
-    
     <v-row>
       <v-col cols="12" class="pa-4">
         <v-data-table
@@ -157,7 +156,7 @@ export default {
       ]
     }
   },
-  mounted(){
+  mounted() {
     if(this.$store.state.isSnackbar.login) {
       this.saveDetails()
     }
@@ -198,7 +197,7 @@ export default {
       this.isEdit = false
       this.editItem = {}
     },
-    deleteProduct(item){
+    deleteProduct(item) {
       this.openDelete = true
       this.deleteItem = item
     },

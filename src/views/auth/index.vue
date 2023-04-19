@@ -141,5 +141,5 @@ export default {
       this.$store.state.isSnackbar.login = false
     }
   },
-};
+}
 </script>

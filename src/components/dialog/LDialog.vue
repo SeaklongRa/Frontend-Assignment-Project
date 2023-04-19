@@ -10,7 +10,6 @@
       <v-card-title class="primary px-8 py-2">
         <span class="text-md-body-1 white--text">{{ title }}</span>
       </v-card-title>
-
       <v-card-text class="pa-5 pb-0">
         <v-container>
           <slot></slot>
@@ -20,7 +19,6 @@
         <slot name="action"></slot>
       </v-card-actions>
     </v-card>
-
   </v-dialog>
 </template>
 

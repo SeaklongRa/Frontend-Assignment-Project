@@ -1,20 +1,6 @@
 import axios from "axios"
 import router from "../router"
 
-// export const login = ({commit}, {email,password}) =>{
-//   axios.get(`http://localhost:3000/users?email=${email}&password=${password}`)
-//   .then(response => {
-//     if (response.status === 200 && response.data.length > 0){
-//         localStorage.setItem("fake-token",JSON.stringify(response.data[0].fake_token))
-//         commit('isLogin', true)
-//         router.push({name: 'home'})
-//     }else {
-//       console.log('Invalid input email or password')
-//     }
-//   })
-//   .catch(error=>console.log(error))
-// }
-
 export const getProduct = ({commit}) => {
   axios.get(`http://localhost:3000/products?_sort=id&_order=desc`)
       .then(response => {

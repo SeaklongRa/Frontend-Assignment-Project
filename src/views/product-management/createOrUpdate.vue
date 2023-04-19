@@ -158,7 +158,7 @@ export default {
   methods: {
     onFileSelected() {
       if(event.target && event.target.files) {
-        this.nameImage = event.target.files[0]?.name;
+        this.nameImage = event.target.files[0]?.name
       } else {
         this.nameImage = null
       }

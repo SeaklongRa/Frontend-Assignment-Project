@@ -1,7 +1,3 @@
-// export const isLogin = (state) =>{
-//   state.isSnackbar.login = true
-// }
-
 export const setProducts = (state, products) =>{
   state.products = products
 }

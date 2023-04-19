@@ -22,11 +22,9 @@
           </v-app-bar-title>
         </v-row>
       </v-col>
-
       <v-col cols="6" class="text-center font-weight-medium pa-0">
         <v-toolbar-title>Product Management</v-toolbar-title>
       </v-col>
-
       <v-col cols="3" class="pa-0 pr-1">
         <v-row class="justify-end">
           <v-menu
@@ -48,11 +46,9 @@
                 <v-icon>mdi-menu-down</v-icon>
               </l-button>
             </template>
-            
             <v-card
               rounded="lg"
               class="d-flex justify-center pa-2"
-              
             >
               <v-list class="pb-0 pt-2">
                 <v-list-item>
@@ -76,7 +72,6 @@
                     </v-col>
                   </v-row>
                 </v-list-item>
-
                 <v-card-actions class="px-3 pt-0">
                   <v-list-item class="px-0">
                     <v-row class="px-0">
@@ -104,15 +99,12 @@
                     </v-row>
                   </v-list-item>
                 </v-card-actions>
-              
               </v-list>
             </v-card>
           </v-menu>
-
         </v-row>
       </v-col>
     </v-app-bar>
-
     <v-navigation-drawer app clipped v-model="drawer" class="pa-4">
       <v-card outlined>
         <v-subheader class="primary--text font-weight-medium mt-2">Filter Price</v-subheader>
@@ -145,7 +137,6 @@
             {{ '$' + rangePrice[1] }}
           </v-subheader>
         </v-row>
-        
         <v-subheader class="primary--text font-weight-medium mt-2">Filter Quantity</v-subheader>
         <v-divider class="mx-4"></v-divider>
         <v-range-slider
@@ -178,7 +169,6 @@
         </v-row>
       </v-card>
     </v-navigation-drawer>
-
     <v-main>
       <slot></slot>
     </v-main>
@@ -199,10 +189,8 @@ export default {
       maxQuantity: 1000,
       rangePrice: [100, 3000],
       rangeQuantity: [0, 1000],
-
       IconEnum,
       drawer: false,
-
       menu: false,
       message: false,
       hints: true,
@@ -213,8 +201,8 @@ export default {
   },
   methods: {
     logout(){
-      localStorage.clear();
-      this.$router.push({name: 'login'});
+      localStorage.clear()
+      this.$router.push({name: 'login'})
     },
     filterPrice(){
       this.$store.dispatch('filterPrice',{minPrice: this.rangePrice[0], maxPrice: this.rangePrice[1]})
