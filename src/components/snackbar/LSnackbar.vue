@@ -16,7 +16,6 @@
 
 <script>
 import { mapActions } from 'vuex'
-// import LButton from '../button/LButton.vue'
   
 export default {
   name: 'SnackbarPage',
